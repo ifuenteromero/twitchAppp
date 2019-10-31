@@ -10,7 +10,9 @@ import Header from './Header';
 const App = () => {
     return (
         <div className="ui container">
-            <BrowserRouter basename="/twitchAppp/" forceRefresh={true}>
+            <BrowserRouter 
+            // basename="/twitchAppp/" forceRefresh={true}
+            >
                 <Header />  
                 <Route path="/" exact component={StreamList}/>
                 <Route path="/streams/new" component={StreamCreate} />
