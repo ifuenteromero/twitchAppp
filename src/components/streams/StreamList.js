@@ -1,6 +1,7 @@
 import React from 'react';
 
-const StreamList = () => {
+const StreamList = (props) => {
+    console.log(props)
     return ( 
         <div> StreamList</div>
     );

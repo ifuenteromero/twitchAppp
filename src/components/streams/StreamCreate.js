@@ -1,6 +1,7 @@
 import React from 'react';
 
-const StreamCreate = () => {
+const StreamCreate = (props) => {
+    console.log(props)
     return ( 
         <div> StreamCreate</div>
     );
